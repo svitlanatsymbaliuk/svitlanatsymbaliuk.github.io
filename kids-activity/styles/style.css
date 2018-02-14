@@ -1,0 +1,131 @@
+body {
+  margin: auto;  
+}
+
+img {
+  /* назва сайту (діяльність малюків) по центру */
+  display: block;             
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.top {
+  /* видалення кружечків на початку зі списку*/
+  list-style-type: none;
+  /* видалення значення за замовчкванням */
+  margin: 0;
+  /* відступ іконки facebook праворуч */
+  padding-right: 10%;
+  /* встановлення фонового кольору - блакитний */
+  background-color: #61C3DA;
+  text-align: right;
+}
+
+.fa {
+  /* відступ елементів у верхньому рядку*/
+  padding: 8px 10px;  
+}
+
+/* підсвічування синім кольором при направленні курсора на іконку */
+.fa:hover {
+  background-color: #209ab7;
+}
+
+/* головне меню */
+.topnav-list {
+  /* шрифт головного меню */
+  font-family: 'Andika', sans-serif;
+  /* видалення кружечків на початку зі списку*/
+  list-style-type: none;
+  /* видалення значення за замовчкванням */
+  margin: 0;
+  /* колір тексту */
+  color: #726e67;
+  /* вирівнення тексту по центру */
+  text-align: center;
+  /* відступ зверху й знизу та побоках */
+  padding: 8px 30px;  
+}
+
+.topnav-item {
+  /* встановлення елементів в списку у рядок */
+  display: inline;
+  padding: 8px 8px;
+  /* розмір шрифта */
+  font-size: small;
+  font-weight: bold;
+}
+
+/* Посилання на сторінки з головного меню*/
+li a {
+  color: #726e67;
+  text-decoration: none;
+}
+
+/* підсвічування рожевим кольором при направленні курсора на елемент для посилання */
+li a:hover{
+  color: #E37EB0;
+}
+
+li a:active{
+  color: #61C3DA;
+}
+
+/* підсвічування рожевим кольором при направленні курсора на елемент */
+.topnav-item:hover {
+  color: #E37EB0;
+}
+
+
+
+/* сіра лінія під головним меню*/
+hr {
+  color: #d5d5d5;
+  background-color: #d5d5d5;
+  border: 0 none;
+  height: 1px;
+}
+
+/* Розташування статтей в колонку */
+#columns {
+  column-width: 320px;
+  column-gap: 15px;
+  width: 80%;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+div#columns figure {
+  background: #fefefe;
+  border: 2px solid #fcfcfc;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  margin: 0 2px 15px;
+  padding: 15px;
+  padding-bottom: 10px;
+  transition: opacity .4s ease-in-out;
+  display: inline-block;
+  column-break-inside: avoid;
+}
+
+div#columns figure img {
+  width: 100%; height: auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+div#columns figure figcaption {
+  font-family: 'Andika', sans-serif;
+  font-size: .9rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* Підсвічування прозорим при наведенні мишки на статтю */
+div#columns figure:hover {
+  opacity: 0.5;
+}
+
+
+
